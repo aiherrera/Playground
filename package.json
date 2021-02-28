@@ -1,0 +1,27 @@
+{
+  "name": "playground",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006 --no-manager-cache",
+    "build-storybook": "build-storybook"
+  },
+  "author": "Alain Iglesias",
+  "license": "ISC",
+  "dependencies": {
+    "@aiherrera/react-hamburger": "^1.0.6",
+    "@storybook/theming": "^6.1.20",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.8",
+    "@storybook/addon-actions": "^6.2.0-beta.4",
+    "@storybook/addon-essentials": "^6.2.0-beta.4",
+    "@storybook/addon-links": "^6.2.0-beta.4",
+    "@storybook/react": "^6.2.0-beta.4",
+    "babel-loader": "^8.2.2",
+    "typescript": "^4.2.2"
+  }
+}

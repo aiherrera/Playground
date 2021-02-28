@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="150" viewBox="0 0 500 150">
+  <defs>
+    <clipPath id="clip-ai-coderlab">
+      <rect width="500" height="150"/>
+    </clipPath>
+  </defs>
+  <g id="ai-coderlab" clip-path="url(#clip-ai-coderlab)">
+    <text id="Ai-CoderLab-2" data-name="Ai-CoderLab" transform="translate(10 98)" fill="#3a88a2" font-size="60" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700"><tspan x="0" y="0">Ai-CoderLab</tspan></text>
+    <g id="code-programming-signs" transform="translate(386 27.583)">
+      <g id="Group_1" data-name="Group 1">
+        <path id="Path_1" data-name="Path 1" d="M44.794,46.987a2,2,0,0,0-.586-1.414L11.444,12.812a2,2,0,0,0-2.828,0L.586,20.841a2,2,0,0,0,0,2.827L23.905,46.987.586,70.307a2,2,0,0,0,0,2.828l8.03,8.029a2,2,0,0,0,2.828,0L44.208,48.4A1.993,1.993,0,0,0,44.794,46.987Z" fill="#3a88a2"/>
+        <path id="Path_2" data-name="Path 2" d="M92.834,69.811H41.98a2,2,0,0,0-2,2v8.8a2,2,0,0,0,2,2H92.834a2,2,0,0,0,2-2v-8.8A2,2,0,0,0,92.834,69.811Z" fill="#3a88a2"/>
+      </g>
+    </g>
+  </g>
+</svg>
