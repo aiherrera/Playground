@@ -1,50 +1,39 @@
-import React, { useState } from 'react';
-import { Story, Meta } from '@storybook/react';
-import { Hamburger, HamburgerProps } from '@aiherrera/react-hamburger';
+import React, { useState } from 'react'
+import { withKnobs, color, text, select } from '@storybook/addon-knobs'
+import { Hamburger as HamburgerComponent } from '@aiherrera/react-hamburger'
 
 export default {
-	title: 'Playground/React Components',
-	component: Hamburger,
-	argTypes: {
-		color: { control: 'color' },
-		size: {
-			control: {
-				type: 'select',
-				options: ['small', 'medium', 'large'],
-			},
-		},
-		direction: {
-			control: {
-				type: 'select',
-				options: ['right', 'left'],
-			},
-		},
-		device: {
-			control: {
-				type: 'select',
-				options: ['all', 'mobile', 'tablet'],
-			},
-		},
-	},
-} as Meta;
+  title: 'Playground/React Components/Hamburger',
+  decorators: [withKnobs],
+  component: HamburgerComponent
+}
 
-const Template: Story<HamburgerProps> = (args) => {
-	const [state, setState] = useState(false);
+export const Hamburger = () => {
+  const [state, setState] = useState(false)
 
-	const handleClick = () => {
-		setState(!state);
-	};
+  const hcolor = color('Color', '#28282A')
+  const size = select('Size', ['small', 'medium', 'large'], 'medium')
+  const direction = select('Direction', ['right', 'left'], 'right')
+  const top = text('Top', '10')
+  const right = text('Right', '10')
+  const left = text('Left', 'auto')
+  const device = select('Device', ['all', 'mobile', 'tablet'], 'all')
 
-	return <Hamburger handleClick={handleClick} isOpened={state} {...args} />;
-};
+  const handleClick = () => {
+    setState(!state)
+  }
 
-export const HamburgerMenu = Template.bind({});
-HamburgerMenu.args = {
-	color: '#28282A',
-	size: 'medium',
-	direction: 'right',
-	top: '10',
-	right: '10',
-	left: 'auto',
-	device: 'all',
-};
+  return (
+    <HamburgerComponent
+      color={hcolor}
+      size={size}
+      direction={direction}
+      top={top}
+      left={left}
+      right={right}
+      device={device}
+      handleClick={handleClick}
+      isOpened={state}
+    />
+  )
+}
