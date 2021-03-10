@@ -12,7 +12,7 @@
   "dependencies": {
     "@aiherrera/react-hamburger": "^1.0.6",
     "@aiherrera/react-pricing-table": "^1.0.0",
-    "@aiherrera/react-slider": "^1.0.3",
+    "@aiherrera/react-slider": "^1.0.4",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-icons": "^4.2.0"
