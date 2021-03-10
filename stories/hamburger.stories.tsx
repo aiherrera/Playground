@@ -3,7 +3,7 @@ import { withKnobs, color, text, select } from '@storybook/addon-knobs'
 import { Hamburger as HamburgerComponent } from '@aiherrera/react-hamburger'
 
 export default {
-  title: 'Playground/React Components/Hamburger',
+  title: 'Playground/React Components',
   decorators: [withKnobs],
   component: HamburgerComponent
 }
