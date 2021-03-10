@@ -26,43 +26,35 @@ export const PricingTable = () => {
       circle: text('Circle', 'B', group1),
       title: text('Title', 'Basic', group1),
       subtitle: text('Subtitle', 'Best for personal websites', group1),
-      price: text('Price', 'MX$8,000', group1),
-      discount: text('Discount', 'MX$6,500', group1),
+      price: text('Price', '$0,000', group1),
+      discount: text('Discount', '$0,000', group1),
       buttonText: text('Button', 'Select plan', group1),
       popular: boolean('Popular', false, group1),
       features: (
         <ul>
           <li>
             <IoCheckmark />
-            <span>Responsive design</span>
+            <span>Lorem ipsum dolor sit.</span>
           </li>
           <li>
             <IoCheckmark />
-            <span>Gallery up to 12 images</span>
+            <span>Lorem ipsum dolor sit.</span>
           </li>
           <li>
             <IoCheckmark />
-            <span>1 contact form</span>
+            <span>Lorem ipsum dolor sit.</span>
           </li>
           <li>
             <IoCheckmark />
-            <span>1 year free domain</span>
+            <span>Lorem ipsum dolor sit.</span>
           </li>
           <li>
             <IoCheckmark />
-            <span>1 year free website hosting</span>
+            <span>Lorem ipsum dolor sit.</span>
           </li>
           <li>
             <IoCheckmark />
-            <span>1 year free SSL</span>
-          </li>
-          <li>
-            <IoCheckmark />
-            <span>1 corporate email</span>
-          </li>
-          <li>
-            <IoCheckmark />
-            <span>SEO optimization</span>
+            <span>Lorem ipsum dolor sit.</span>
           </li>
         </ul>
       )
@@ -72,54 +64,42 @@ export const PricingTable = () => {
       circle: text('Circle', 'S', group2),
       title: text('Title', 'Standard', group2),
       subtitle: text('Subtitle', 'Optimized for startups', group2),
-      price: text('Price', 'MX$12,000', group2),
+      price: text('Price', '$0,000', group2),
       buttonText: text('Button', 'Select plan', group2),
       popular: boolean('Popular', true, group2),
       features: (
         <ul>
           <li>
             <IoCheckmark />
-            <span>Responsive design</span>
+            <span>Lorem ipsum dolor sit.</span>
           </li>
           <li>
             <IoCheckmark />
-            <span>Gallery up to 30 images</span>
+            <span>Lorem ipsum dolor sit.</span>
           </li>
           <li>
             <IoCheckmark />
-            <span>1 contact form</span>
+            <span>Lorem ipsum dolor sit.</span>
           </li>
           <li>
             <IoCheckmark />
-            <span>1 year free domain</span>
+            <span>Lorem ipsum dolor sit.</span>
           </li>
           <li>
             <IoCheckmark />
-            <span>1 year free website hosting</span>
+            <span>Lorem ipsum dolor sit.</span>
           </li>
           <li>
             <IoCheckmark />
-            <span>1 year free SSL</span>
+            <span>Lorem ipsum dolor sit.</span>
           </li>
           <li>
             <IoCheckmark />
-            <span>up to 5 corporate emails</span>
+            <span>Lorem ipsum dolor sit.</span>
           </li>
           <li>
             <IoCheckmark />
-            <span>social media integration</span>
-          </li>
-          <li>
-            <IoCheckmark />
-            <span>1 whatsapp button</span>
-          </li>
-          <li>
-            <IoCheckmark />
-            <span>SEO optimization</span>
-          </li>
-          <li>
-            <IoCheckmark />
-            <span>Facebook profile creation</span>
+            <span>Lorem ipsum dolor sit.</span>
           </li>
         </ul>
       )
@@ -129,63 +109,62 @@ export const PricingTable = () => {
       circle: text('Circle', 'E', group3),
       title: text('Title', 'Premium', group3),
       subtitle: text('Subtitle', 'Enterprise class website', group3),
-      price: text('Price', 'MX15,000', group3),
-      discount: text('Discount', 'MX15,000', group3),
+      price: text('Price', '$0,000', group3),
       buttonText: text('Button', 'Select plan', group3),
       popular: boolean('Pupular', false, group3),
       features: (
         <ul>
           <li>
             <IoCheckmark />
-            <span>Responsive design</span>
+            <span>Lorem ipsum dolor sit.</span>
           </li>
           <li>
             <IoCheckmark />
-            <span>Gallery up to 80 images</span>
+            <span>Lorem ipsum dolor sit.</span>
           </li>
           <li>
             <IoCheckmark />
-            <span>1 contact form</span>
+            <span>Lorem ipsum dolor sit.</span>
           </li>
           <li>
             <IoCheckmark />
-            <span>1 year free domain</span>
+            <span>Lorem ipsum dolor sit.</span>
           </li>
           <li>
             <IoCheckmark />
-            <span>1 year free website hosting</span>
+            <span>Lorem ipsum dolor sit.</span>
           </li>
           <li>
             <IoCheckmark />
-            <span>1 year free SSL</span>
+            <span>Lorem ipsum dolor sit.</span>
           </li>
           <li>
             <IoCheckmark />
-            <span>up to 15 corporate emails</span>
+            <span>Lorem ipsum dolor sit.</span>
           </li>
           <li>
             <IoCheckmark />
-            <span>social media integration</span>
+            <span>Lorem ipsum dolor sit.</span>
           </li>
           <li>
             <IoCheckmark />
-            <span>1 whatsapp button</span>
+            <span>Lorem ipsum dolor sit.</span>
           </li>
           <li>
             <IoCheckmark />
-            <span>SEO optimization</span>
+            <span>Lorem ipsum dolor sit.</span>
           </li>
           <li>
             <IoCheckmark />
-            <span>Facebook profile creation</span>
+            <span>Lorem ipsum dolor sit.</span>
           </li>
           <li>
             <IoCheckmark />
-            <span>Live chat integration</span>
+            <span>Lorem ipsum dolor sit.</span>
           </li>
           <li>
             <IoCheckmark />
-            <span>presence on Google Maps </span>
+            <span>Lorem ipsum dolor sit.</span>
           </li>
         </ul>
       )
