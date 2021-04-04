@@ -1,9 +1,9 @@
 import React from 'react'
 import { withKnobs, files, number } from '@storybook/addon-knobs'
-import { Logo as LogoComponent } from './Logo'
+import { Logo as LogoComponent } from '@aiherrera/react-logo'
 
 export default {
-  title: 'Playground/React Components/Logo',
+  title: 'Playground/React Components',
   decorators: [withKnobs],
   component: LogoComponent
 }

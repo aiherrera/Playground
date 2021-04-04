@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "@aiherrera/react-hamburger": "^1.0.6",
+    "@aiherrera/react-logo": "^1.0.2",
     "@aiherrera/react-pricing-table": "^1.0.0",
     "@aiherrera/react-slider": "^1.0.8",
     "react": "^17.0.1",
